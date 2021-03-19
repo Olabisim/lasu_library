@@ -1,0 +1,269 @@
+
+g#right_arrow {
+    animation: right 3s linear infinite;
+}
+
+@keyframes right {
+    0% {
+        transform: translate(0px);
+    }
+    20% {
+        transform: translateX(30px);
+    }
+    40% {
+        transform: translateX(-30px);
+    }
+    60% {
+        transform: translateX(0px);
+    }
+    80% {
+        transform: translateX(30px);
+    }
+    300% {
+        transform: translateX(-30px);
+    }
+}
+g#left_arrow {
+    animation: left 3s linear infinite;
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(-30px);
+    }
+    40% {
+        transform: translateX(30px);
+    }
+    60% {
+        transform: translateX(0px);
+    }
+    80% {
+        transform: translateX(-30px);
+    }
+    300% {
+        transform: translateX(30px);
+    }
+}
+
+
+
+g#book {
+    animation: book 3s linear infinite;
+}
+
+@keyframes book {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(10px);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+    80% {
+        transform: translateY(10px);
+    }
+    300% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+g#first_div_shapes {
+    animation: firstdivshapes 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes firstdivshapes {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    20% {
+        transform: translate(10px, -10px);
+    }
+    40% {
+        transform: translate(-10px, 10px);
+    }
+    60% {
+        transform: translate(0px, 0px);
+    }
+    80% {
+        transform: translate(10px, -10px);
+    }
+    300% {
+        transform: translate(-10px, 0px);
+    }
+}
+
+
+
+
+
+g#long_spine_leaf {
+        
+        
+    animation: breeze 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+
+@keyframes breeze {
+    0% {
+        transform: translateY(-10px);
+    }
+    20% {
+        transform: translateY(-25px);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(10px);
+    }
+    80% {
+        transform: translateY(-25px);
+    }
+    200% {
+        transform: translateY(-15px);
+    }
+    /* 0% {
+        transform: skewX(0deg);
+    }
+    20% {
+        transform: skewX(10deg);
+    }
+    40% {
+        transform: skewX(0deg);
+    }
+    60% {
+        transform: skewX(10deg);
+    }
+    80% {
+        transform: skewX(0deg);
+    }
+    200% {
+        transform: skewX(10deg);
+    } */
+
+    
+}
+    
+
+section.third_section g#the_girl{
+
+    animation: thegirl 3s linear infinite;
+}
+
+@keyframes thegirl {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(55px);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+    80% {
+        transform: translateY(55px);
+    }
+    200% {
+        transform: translateY(10px);
+    }
+}
+
+
+g#middle_book {
+    
+    animation: middlebook 3s linear infinite;
+    
+}
+@keyframes middlebook {
+    0% {
+        transform: translatex(0px);
+    }
+    20% {
+        transform: translatex(35px);
+    }
+    40% {
+        transform: translatex(10px);
+    }
+    60% {
+        transform: translatex(0px);
+    }
+    80% {
+        transform: translatex(35px);
+    }
+    200% {
+        transform: translatex(10px);
+    }
+}
+
+g#leaves_flying path:nth-of-type(1){
+    animation: leavesflying 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+
+g#leaves_flying path:nth-of-type(2){
+    animation: leavesflying 6s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+g#leaves_flying path:nth-of-type(3){
+    animation: leavesflying 9s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+g#leaves_flying path:nth-of-type(4){
+    animation: leavesflying 12s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+g#leaves_flying path:nth-of-type(5){
+    animation: leavesflying 15s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes leavesflying {
+    0% {
+        transform: translatex(-0px) rotateX(0deg);
+    }
+    20% {
+        transform: translatex(-5px) rotateX(360deg);
+    }
+    40% {
+        transform: translatex(-10px) rotateX(0deg);
+    }
+    60% {
+        transform: translatex(-0px) rotateX(720deg);
+    }
+    80% {
+        transform: translatex(-5px) rotateX(0deg);
+    }
+    200% {
+        transform: translatex(-10px) rotateX(360deg);
+    }
+}

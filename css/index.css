@@ -1,0 +1,324 @@
+/* 
+
+PRIMARY COLORS
+
+#FF6390 
+RED
+#3a3768
+
+
+*/
+
+
+#page {
+    background: white !important;
+}
+
+
+.colorlib-nav ul li.active > a {
+    color: black;
+    position: relative;
+}
+.colorlib-nav ul li > a {
+    color: #ff1a5b ;
+    position: relative;
+}
+.colorlib-nav #colorlib-logo a {
+    position: relative;
+    color: #ff1a5b ;
+}
+
+.display-t.text-center div{
+    position: relative;
+}
+
+.display-t.text-center div div{
+
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    transform: translate(50%, 50%);
+
+}
+
+.display-t.text-center div div h3{
+        color: white !important;
+        text-transform: uppercase;
+        font-weight: 900;
+}
+
+.display-t.text-center div div hr{
+        height: 40px;
+        width: 250%;
+        animation: linedraw 1s linear;
+}
+
+
+
+
+
+/* 
+
+
+second section
+
+ */
+.display-t.text-center div{
+}
+
+.display-t.text-center div div{
+
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    transform: translate(50%, 50%);
+
+}
+
+.ss_first_div div > h4, h5{
+        color: #ff1a5b;
+        text-transform: uppercase;
+        /* font-weight: 900; */
+}
+h5 {
+    font-weight: 900;
+}
+.ss_first_div div hr{
+        height: 1px;
+        width: 30%;
+        margin-right: 310px;
+        animation: linedraw 1s linear;
+        background: #ff1a5b !important;
+        
+}
+.margin-top-small {
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+ section.second_section .ss_first_div{
+
+    width: 100%;
+    height: 2350px;
+    background-image: url('/unapp/SVG/book_lover_recover.svg');
+    text-align: center;
+    
+    /* font-weight: 800 !important; */
+    /* border-radius: 100%; */
+
+ }
+
+ 
+ section.second_section .ss_first_div h4{
+
+    /* font-weight: 800 !important; */
+
+ }
+
+
+ .first_first_flex {
+
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    padding-top: 100px;
+    width: 100%;
+
+
+ }
+
+ .first_first_flex .for-bg {
+    width: 100%;
+
+}
+ .first_first_flex .bg {
+
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 30px;
+    margin: auto;
+
+
+}
+
+.first_first_flex .bg-1 {
+
+   width: 100%;
+   height: 145px;
+   /* background-color: rgb(58, 55, 104, 0.75); */
+   border-top-left-radius: 30px;
+
+
+}
+
+
+.first_first_flex .bg-1 i {
+    color: rgb(58, 55, 104);
+
+    font-size: 72px;
+    margin: 10px;
+    padding: 10px;
+ 
+ 
+ }
+
+.first_first_flex .bg > .bg-2{
+
+    width: 100%;
+    height: 50px;
+    font-weight: 100 !important;
+
+}
+
+.first_first_flex .bg-support button{
+    background-color:lavender;
+    text-transform: uppercase;
+    color: #ff336d;
+    text-shadow: 0px 10px 20px white;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 15px 65px;
+    /* border: 1px solid red; */
+    border: none;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    line-height: 25px;
+    transition: 0.3s;
+
+}
+
+
+.first_first_flex .bg-support button:hover{
+    background: #ff336d;
+    color: white;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+section.third_section div.ts_first_div{
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    
+}
+section.third_section div.ts_first_div svg{
+    height: 450px;
+}
+section.third_section div.ts_first_div h5{
+    color: #3a3768;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+section.fourth_section {
+    margin: auto;
+}
+
+section.fourth_section .fs_first_div .fs-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.fourth_section .fs_first_div .fs-f-f {
+
+    background: rgba(0,0,0,0.05);
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 50px 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+/* 
+section.fourth_section .fs_first_div .fs-f-f:nth-of-type(2) {
+
+    background: #ff336d;
+
+} */
+
+section.fourth_section .fs_first_div .fs-f-f h2{
+
+    color: #ff336d;
+    font-weight: 900;
+    font-size: 32px;
+
+}
+
+
+section.fourth_section .fs_first_div .fs-f-f p{
+
+    color: #ff336d;
+
+}
+
+section.fourth_section .fs_first_div .fs-f-f:nth-of-type(2) h2{
+
+    color: #3a3768;
+
+}
+
+
+section.fourth_section .fs_first_div .fs-f-f:nth-of-type(2) p{
+
+    color: #3a3768;
+
+}
+
+
+
+
+
+section.fourth_section .fs-second_div   {
+
+    background: #ff336d;
+    width: 40%;
+    height: 60px;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+
+
+}
+
+section.fourth_section .fs-second_div h5{
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+
+
+@keyframes linedraw {
+    0% {
+        width: 0%;
+    }
+}
+
