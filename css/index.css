@@ -28,33 +28,6 @@ RED
     color: #ff1a5b ;
 }
 
-.display-t.text-center div{
-    position: relative;
-}
-
-.display-t.text-center div div{
-
-    position: absolute;
-    top: 200px;
-    left: 300px !important;
-    transform: translate(50%, 50%);
-
-}
-
-.display-t.text-center div div h3{
-        color: white !important;
-        text-transform: uppercase;
-        font-weight: 900;
-}
-
-.display-t.text-center div div hr{
-
-        height: 40px;
-        width: 250%;
-        animation: linedraw 1s linear;
-        
-}
-
 svg{
     width: 100%;
 }
@@ -367,26 +340,16 @@ for tablet
             left: 1320px;
         
         }
-        .display-t.text-center div{
-            position: relative;
-        }
-        
-        .display-t.text-center div div{
-        
-            position: absolute;
-            top: 200px;
-            left: 740px !important;
-            transform: translate(50%, 50%);
-        
-        }
         
         .display-t.text-center div div h3{
+                opacity: 1;
                 color: white !important;
                 text-transform: uppercase;
                 font-weight: 900;
         }
         
         .display-t.text-center div div hr{
+                opacity: 1;
                 height: 40px;
                 width: 250%;
                 animation: linedraw 1s linear;
