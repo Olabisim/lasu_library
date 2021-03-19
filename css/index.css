@@ -36,7 +36,7 @@ RED
 
     position: absolute;
     top: 200px;
-    left: 580px;
+    left: 300px !important;
     transform: translate(50%, 50%);
 
 }
@@ -48,10 +48,17 @@ RED
 }
 
 .display-t.text-center div div hr{
+
         height: 40px;
         width: 250%;
         animation: linedraw 1s linear;
+        
 }
+
+svg{
+    width: 100%;
+}
+
 
 
 
@@ -106,7 +113,7 @@ h5 {
 
     width: 100%;
     height: 2350px;
-    background-image: url('/unapp/SVG/book_lover_recover.svg');
+    background-image: url('/SVG/book_lover_recover.svg');
     text-align: center;
     
     /* font-weight: 800 !important; */
@@ -232,6 +239,7 @@ section.third_section div.ts_first_div h5{
 
 section.fourth_section {
     margin: auto;
+    background-image: url('/SVG/shapes.svg');
 }
 
 section.fourth_section .fs_first_div .fs-flex {
@@ -321,4 +329,98 @@ section.fourth_section .fs-second_div h5{
         width: 0%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+@media queries
+
+
+*/
+
+/* 
+
+for tablet
+
+*/
+
+@media screen and (min-width: 1024px) {
+
+        .display-t.text-center div div{
+        
+            left: 1320px;
+        
+        }
+        .display-t.text-center div{
+            position: relative;
+        }
+        
+        .display-t.text-center div div{
+        
+            position: absolute;
+            top: 200px;
+            left: 740px !important;
+            transform: translate(50%, 50%);
+        
+        }
+        
+        .display-t.text-center div div h3{
+                color: white !important;
+                text-transform: uppercase;
+                font-weight: 900;
+        }
+        
+        .display-t.text-center div div hr{
+                height: 40px;
+                width: 250%;
+                animation: linedraw 1s linear;
+        }
+        
+    
+        .colorlib-nav ul {
+            padding: 0;
+            margin: -0px 0 0 0 !important; 
+            }
+}
+
+/* 
+
+for phone 
+
+*/
+
+@media screen and (min-width: 768px) {
+    
+    .display-t.text-center div div{
+    
+        left: 320px;
+    
+    }
+    
+    .colorlib-nav ul {
+    padding: 0;
+    margin: -30px 0 0 0; 
+    }
+}
+
+
+
+
+
 
